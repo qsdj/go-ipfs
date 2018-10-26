@@ -6,14 +6,13 @@ import (
 	"os"
 	"strings"
 
-	cmdenv "github.com/ipfs/go-ipfs/core/commands/cmdenv"
+	"github.com/ipfs/go-ipfs/core/commands/cmdenv"
 	coreiface "github.com/ipfs/go-ipfs/core/coreapi/interface"
-	options "github.com/ipfs/go-ipfs/core/coreapi/interface/options"
+	"github.com/ipfs/go-ipfs/core/coreapi/interface/options"
 
 	pb "gx/ipfs/QmPtj12fdwuAqj9sBSTNUxBNu8kCGNp8b3o8yUzMm5GHpq/pb"
 	cmds "gx/ipfs/QmWzi9E1QpPRNL7GJhNPczH9o74fPDbCkNCatSdJY6omXb/go-ipfs-cmds"
 	cmdkit "gx/ipfs/Qmde5VP1qUkyQXKCfmEUA7bP64V2HAptbJ7phuPp7jXWwg/go-ipfs-cmdkit"
-	files "gx/ipfs/QmeMTH1JMwLui2dGzn5Ecvup9NY41PqD2Md4Fx4cgk7ykr/go-ipfs-files"
 	mh "gx/ipfs/QmerPMzPk1mJVowm8KgmoknWa4yCYvvugMPsgWmDNUvDLW/go-multihash"
 )
 
@@ -225,24 +224,17 @@ You can now check what blocks have been created by:
 			outChan := make(chan interface{})
 			req := res.Request()
 
-			sizeFile, ok := req.Files.(files.SizeFile)
-			if ok {
-				// Could be slow.
-				go func() {
-					size, err := sizeFile.Size()
-					if err != nil {
-						log.Warningf("error getting files size: %s", err)
-						// see comment above
-						return
-					}
+			// Could be slow.
+			go func() {
+				size, err := req.Files.Size()
+				if err != nil {
+					log.Warningf("error getting files size: %s", err)
+					// see comment above
+					return
+				}
 
-					sizeChan <- size
-				}()
-			} else {
-				// we don't need to error, the progress bar just
-				// won't know how big the files are
-				log.Warning("cannot determine size of input file")
-			}
+				sizeChan <- size
+			}()
 
 			progressBar := func(wait chan struct{}) {
 				defer close(wait)
