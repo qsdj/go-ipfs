@@ -14,14 +14,14 @@ import (
 	core "github.com/ipfs/go-ipfs/core"
 	namesys "github.com/ipfs/go-ipfs/namesys"
 	path "gx/ipfs/QmRG3XuGwT7GYuAqgWDJBKTzdaHMwAnc1x7J2KHEXNHxzG/go-path"
-	ft "gx/ipfs/QmXLCwhHh7bxRsBnCKNE9BAN87V44aSxXLquZYTtjr6fZ3/go-unixfs"
 	dag "gx/ipfs/QmaDBne4KeY3UepeqSVKYpSmQGa3q9zP6x3LfVF2UjF3Hc/go-merkledag"
+	ft "gx/ipfs/QmakpthXGmoD31CdY76SUAuRoRySWfikUAvkYg9pRzrAm5/go-unixfs"
 
 	ci "gx/ipfs/QmNiJiXwWE3kRhZrC5ej3kSjWHm337pYfhjLGSCDNKJP2s/go-libp2p-crypto"
 	cid "gx/ipfs/QmR8BauakNcBa3RbE4nbQu76PDiJgoQgz8AJdhJuiU4TAw/go-cid"
 	fuse "gx/ipfs/QmSJBsmLP1XMjv8hxYg2rUMdPDB7YUpyBo9idjrJ6Cmq6F/fuse"
 	fs "gx/ipfs/QmSJBsmLP1XMjv8hxYg2rUMdPDB7YUpyBo9idjrJ6Cmq6F/fuse/fs"
-	mfs "gx/ipfs/QmcUXFi2Fp7oguoFT81f2poJpnb44dFkZanQhDBHMoYyG9/go-mfs"
+	mfs "gx/ipfs/QmZAjwt3s3CgyZs3R13T75ztT92eT37VPP5QvhKreB1xyT/go-mfs"
 	peer "gx/ipfs/QmcqU6QUDSXprb1518vYDGczrTJTyGwLG9eUa5iNX4xUtS/go-libp2p-peer"
 	logging "gx/ipfs/QmcuXC5cxs79ro2cUuHs4HQ2bkDLJUYokwL8aivcX6HW3C/go-log"
 )

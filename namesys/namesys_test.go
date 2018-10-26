@@ -11,10 +11,10 @@ import (
 	offroute "gx/ipfs/QmNuVissmH2ftUd4ADvhm9WER3351wTYduY1EeDDGtP1tM/go-ipfs-routing/offline"
 	path "gx/ipfs/QmRG3XuGwT7GYuAqgWDJBKTzdaHMwAnc1x7J2KHEXNHxzG/go-path"
 	pstoremem "gx/ipfs/QmUymf8fJtideyv3z727BcZUifGBjMZMpCJqu3Gxk5aRUk/go-libp2p-peerstore/pstoremem"
-	"gx/ipfs/QmXLCwhHh7bxRsBnCKNE9BAN87V44aSxXLquZYTtjr6fZ3/go-unixfs"
 	ipns "gx/ipfs/QmZMJfrt7fU33oFQ9WvWnovhiiZ8T6qkWkFXNCFreJTzgT/go-ipns"
 	ds "gx/ipfs/QmaRb5yNXKonhbkpNxNawoydk4N6es6b4fPj19sjEKsh5D/go-datastore"
 	dssync "gx/ipfs/QmaRb5yNXKonhbkpNxNawoydk4N6es6b4fPj19sjEKsh5D/go-datastore/sync"
+	"gx/ipfs/QmakpthXGmoD31CdY76SUAuRoRySWfikUAvkYg9pRzrAm5/go-unixfs"
 	peer "gx/ipfs/QmcqU6QUDSXprb1518vYDGczrTJTyGwLG9eUa5iNX4xUtS/go-libp2p-peer"
 )
 

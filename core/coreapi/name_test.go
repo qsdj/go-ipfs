@@ -11,7 +11,7 @@ import (
 	"time"
 
 	ipath "gx/ipfs/QmRG3XuGwT7GYuAqgWDJBKTzdaHMwAnc1x7J2KHEXNHxzG/go-path"
-	files "gx/ipfs/QmZMWMvWMVKCbHetJ4RgndbuEF1io2UpUxwQwtNjtYPzSC/go-ipfs-files"
+	files "gx/ipfs/QmeMTH1JMwLui2dGzn5Ecvup9NY41PqD2Md4Fx4cgk7ykr/go-ipfs-files"
 
 	coreiface "github.com/ipfs/go-ipfs/core/coreapi/interface"
 	opt "github.com/ipfs/go-ipfs/core/coreapi/interface/options"

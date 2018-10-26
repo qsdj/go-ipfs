@@ -13,7 +13,7 @@ import (
 	nsopts "github.com/ipfs/go-ipfs/namesys/opts"
 
 	path "gx/ipfs/QmRG3XuGwT7GYuAqgWDJBKTzdaHMwAnc1x7J2KHEXNHxzG/go-path"
-	cmds "gx/ipfs/Qma6uuSyjkecGhMFFLfzyJDPyoDtNJSHJNweDccZhaWkgU/go-ipfs-cmds"
+	cmds "gx/ipfs/QmWzi9E1QpPRNL7GJhNPczH9o74fPDbCkNCatSdJY6omXb/go-ipfs-cmds"
 	logging "gx/ipfs/QmcuXC5cxs79ro2cUuHs4HQ2bkDLJUYokwL8aivcX6HW3C/go-log"
 	"gx/ipfs/Qmde5VP1qUkyQXKCfmEUA7bP64V2HAptbJ7phuPp7jXWwg/go-ipfs-cmdkit"
 )

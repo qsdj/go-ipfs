@@ -18,7 +18,7 @@ import (
 	mafilter "gx/ipfs/QmSMZwvs3n4GBikZ7hKzT17c3bk65FmyZo2JqtJ16swqCv/multiaddr-filter"
 	iaddr "gx/ipfs/QmUSE3APe1pMFVsUBZUZaKQKERiPteCWvTAERtVQmtXzgE/go-ipfs-addr"
 	pstore "gx/ipfs/QmUymf8fJtideyv3z727BcZUifGBjMZMpCJqu3Gxk5aRUk/go-libp2p-peerstore"
-	"gx/ipfs/Qma6uuSyjkecGhMFFLfzyJDPyoDtNJSHJNweDccZhaWkgU/go-ipfs-cmds"
+	"gx/ipfs/QmWzi9E1QpPRNL7GJhNPczH9o74fPDbCkNCatSdJY6omXb/go-ipfs-cmds"
 	"gx/ipfs/QmbK4EmM2Xx5fmbqK38TGP3PpY66r3tkXLZTcc7dF9mFwM/go-ipfs-config"
 	"gx/ipfs/QmcYC4ayKi7bq8xecEZxHVEuTL6HREZWTTErrSRd1S3Spz/go-libp2p-swarm"
 	peer "gx/ipfs/QmcqU6QUDSXprb1518vYDGczrTJTyGwLG9eUa5iNX4xUtS/go-libp2p-peer"
