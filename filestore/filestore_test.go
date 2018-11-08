@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"testing"
 
-	dag "gx/ipfs/QmaDBne4KeY3UepeqSVKYpSmQGa3q9zP6x3LfVF2UjF3Hc/go-merkledag"
+	dag "gx/ipfs/QmcBudYCTxMfZ63BoPD5DNPksxaxtS6zQrdJvVSxKqktin/go-merkledag"
 
 	posinfo "gx/ipfs/QmR6YMs8EkXQLXNwQKxLnQp2VBZSepoEJ8KCZAyanJHhJu/go-ipfs-posinfo"
 	cid "gx/ipfs/QmR8BauakNcBa3RbE4nbQu76PDiJgoQgz8AJdhJuiU4TAw/go-cid"

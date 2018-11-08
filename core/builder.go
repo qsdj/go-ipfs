@@ -14,10 +14,10 @@ import (
 	repo "github.com/ipfs/go-ipfs/repo"
 	cidv0v1 "github.com/ipfs/go-ipfs/thirdparty/cidv0v1"
 	"github.com/ipfs/go-ipfs/thirdparty/verifbs"
-	resolver "gx/ipfs/QmRG3XuGwT7GYuAqgWDJBKTzdaHMwAnc1x7J2KHEXNHxzG/go-path/resolver"
+	uio "gx/ipfs/QmQFXpLVAgoQsgsdJspTkHcVpkLznHSTovwaBcBPvvLNoG/go-unixfs/io"
 	bserv "gx/ipfs/QmVPeMNK9DfGLXDZzs2W4RoFWC9Zq1EnLGmLXtYtWrNdcW/go-blockservice"
-	uio "gx/ipfs/QmXLCwhHh7bxRsBnCKNE9BAN87V44aSxXLquZYTtjr6fZ3/go-unixfs/io"
-	dag "gx/ipfs/QmaDBne4KeY3UepeqSVKYpSmQGa3q9zP6x3LfVF2UjF3Hc/go-merkledag"
+	dag "gx/ipfs/QmcBudYCTxMfZ63BoPD5DNPksxaxtS6zQrdJvVSxKqktin/go-merkledag"
+	resolver "gx/ipfs/QmeNiFVT75VsRkjvCK5hx3jmK9CC2v8m1vuuKapkYB1K6y/go-path/resolver"
 
 	ci "gx/ipfs/QmNiJiXwWE3kRhZrC5ej3kSjWHm337pYfhjLGSCDNKJP2s/go-libp2p-crypto"
 	offline "gx/ipfs/QmPpnbwgAuvhUkA9jGooR88ZwZtTUHXXvoQNKdjZC6nYku/go-ipfs-exchange-offline"

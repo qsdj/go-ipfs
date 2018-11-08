@@ -11,13 +11,13 @@ import (
 	iface "github.com/ipfs/go-ipfs/core/coreapi/interface"
 
 	offline "gx/ipfs/QmPpnbwgAuvhUkA9jGooR88ZwZtTUHXXvoQNKdjZC6nYku/go-ipfs-exchange-offline"
+	unixfs "gx/ipfs/QmQFXpLVAgoQsgsdJspTkHcVpkLznHSTovwaBcBPvvLNoG/go-unixfs"
+	uio "gx/ipfs/QmQFXpLVAgoQsgsdJspTkHcVpkLznHSTovwaBcBPvvLNoG/go-unixfs/io"
+	unixfs_pb "gx/ipfs/QmQFXpLVAgoQsgsdJspTkHcVpkLznHSTovwaBcBPvvLNoG/go-unixfs/pb"
 	cid "gx/ipfs/QmR8BauakNcBa3RbE4nbQu76PDiJgoQgz8AJdhJuiU4TAw/go-cid"
 	blockservice "gx/ipfs/QmVPeMNK9DfGLXDZzs2W4RoFWC9Zq1EnLGmLXtYtWrNdcW/go-blockservice"
-	unixfs "gx/ipfs/QmXLCwhHh7bxRsBnCKNE9BAN87V44aSxXLquZYTtjr6fZ3/go-unixfs"
-	uio "gx/ipfs/QmXLCwhHh7bxRsBnCKNE9BAN87V44aSxXLquZYTtjr6fZ3/go-unixfs/io"
-	unixfs_pb "gx/ipfs/QmXLCwhHh7bxRsBnCKNE9BAN87V44aSxXLquZYTtjr6fZ3/go-unixfs/pb"
 	cmds "gx/ipfs/Qma6uuSyjkecGhMFFLfzyJDPyoDtNJSHJNweDccZhaWkgU/go-ipfs-cmds"
-	merkledag "gx/ipfs/QmaDBne4KeY3UepeqSVKYpSmQGa3q9zP6x3LfVF2UjF3Hc/go-merkledag"
+	merkledag "gx/ipfs/QmcBudYCTxMfZ63BoPD5DNPksxaxtS6zQrdJvVSxKqktin/go-merkledag"
 	ipld "gx/ipfs/QmcKKBwfz6FyQdHR2jsXrrF6XeSBXYL86anmWNewpFpoF5/go-ipld-format"
 	"gx/ipfs/Qmde5VP1qUkyQXKCfmEUA7bP64V2HAptbJ7phuPp7jXWwg/go-ipfs-cmdkit"
 )
