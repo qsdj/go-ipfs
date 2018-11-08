@@ -193,12 +193,16 @@ The JSON output contains type information.
 		cmds.CLI: func(res cmds.Response, re cmds.ResponseEmitter) error {
 			req := res.Request()
 			headers, _ := req.Options[lsHeadersOptionNameTime].(bool)
+			multipleFolders := len(req.Arguments) > 1
 			lastDirectoryWritten := -1
 			tw := tabwriter.NewWriter(os.Stdout, 1, 2, 1, ' ', 0)
 			for {
 				v, err := res.Next()
 				if err != nil {
 					if err == io.EOF {
+						if multipleFolders {
+							fmt.Fprintln(os.Stdout)
+						}
 						return nil
 					}
 
@@ -209,8 +213,6 @@ The JSON output contains type information.
 				if !ok {
 					return e.TypeErr(output, v)
 				}
-
-				multipleFolders := len(output.Objects) > 1
 
 				for i, object := range output.Objects {
 					if len(object.Links) == 0 {
